@@ -9,13 +9,11 @@ $(document).ready(function() {
 
 
   event.preventDefault();
-  if (question1 === "yes" && question2 === "yes") {
+  if ((question1 === "yes" && question2 === "yes")) {
     $("#css").show();
-  } else if (question2 === "yes" && question4 === "yes") {
+  } else if ((question2 === "yes" && question4 === "yes") || (question3 === "yes") && (question4 === "yes")) {
     $("#ruby").show();
-  } if ((question3 === "yes") && (question4 === "yes")) {
-    $("#ruby").show();
-  } else if (question3 === "yes") {
+  } else {
     $("#c-sharp").show();
   }
   });
