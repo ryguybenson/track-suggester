@@ -11,8 +11,9 @@ $(document).ready(function() {
   event.preventDefault();
   if (question1 === "yes") {
     $("#answer1").show();
+  } else if (question2 === "yes") {
+    $("#answer1").show();
   }
-
-
+  
   });
 });
