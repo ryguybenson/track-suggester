@@ -1,5 +1,6 @@
 .well {
   margin-top: 1%;
+
 }
 #css, #c-sharp, #ruby {
   display: none;
@@ -9,4 +10,13 @@ select {
 }
 h1 {
   text-align: center;
+}
+.well {
+  background-color: #8EBCBF;
+}
+body {
+  background-image: url("../img/yellow.png");
+}
+.container {
+  margin-top: 1%;
 }
