@@ -1,6 +1,5 @@
-.container {
-  margin-top: .05%;
-  margin-bottom: 1%;
+.well {
+  margin-top: 1%;
 }
 #css, #c-sharp, #ruby {
   display: none;
