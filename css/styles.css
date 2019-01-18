@@ -1,0 +1,7 @@
+.container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#answer1, #answer2, #answer3 {
+  display: none;
+}
