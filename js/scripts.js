@@ -14,6 +14,8 @@ $(document).ready(function() {
   } else if (question2 === "yes") {
     $("#answer1").show();
   }
-  
+  if (question3 === "yes") {
+    $("#answer2").show();
+  }
   });
 });
