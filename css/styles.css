@@ -16,7 +16,12 @@ h1 {
 }
 body {
   background-image: url("../img/yellow.png");
+  background-size: auto;
 }
 .container {
   margin-top: 1%;
+}
+.container img {
+  height: 10%;
+  width: 10%;
 }
