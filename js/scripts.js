@@ -22,5 +22,11 @@ $(document).ready(function() {
     $("#ruby").hide();
     $("#css").hide();
   }
+  if (name === "ben" || name === "Ben") {
+    alert("Hey Ben, I hope you enjoy my project!");
+  } else if (name === "lina" || name === "Lina") {
+    alert("Hey Lina, I hope you enjoy my project!");
+  }
+
   });
 });
