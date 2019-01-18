@@ -11,12 +11,16 @@
   <body>
     <div class="container">
       <div class="well">
-        <h1>Which track is best for you?</h1>
+        <h1>Which Epicodus track is best for you?</h1>
       </div>
     </div>
     <div class="container">
       <div class="well">
         <form id="formOne">
+          <div class="form-group">
+            <label for="name">Enter your name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
           <p>Question 1: Do you enjoy being artistic and making things look good using colors and designs?</p>
           <select class="form-control" id="first">
             <option>yes</option>
@@ -47,7 +51,7 @@
         </form>
         <div id=css>
           <h4>CSS/Design</h4>
-          <p>CSS/Design is the best track for you!</p>
+          <p>Thank you for answering our questions <span class="name"></span>, based on your results we have decided CSS/Design is the best track for you! If you'd like to know more click the link below!</p>
           <ul>
             <li><a href="https://www.epicodus.com/css">Epicodus CSS Track</a></li>
             <li><a href="https://www.epicodus.com/design">Epicodus Design Track</a></li>
@@ -55,7 +59,7 @@
         </div>
         <div id="c-sharp">
           <h4>C# and Java</h4>
-          <p>C#/.NET and Java/Android are the best tracks for you to look into!</p>
+          <p>Thank you for answering our questions <span class="name"></span>, based on your results we have decided C#/.NET and Java/Android are the best tracks for you to look into! If you'd like to know more click the link below!</p>
           <ul>
             <li><a href="https://www.epicodus.com/java">Epicodus Java Track</a></li>
             <li><a href="https://www.epicodus.com/c-sharp">Epicodus C# Track</a></li>
@@ -63,7 +67,7 @@
         </div>
         <div id="ruby">
           <h4>Ruby</h4>
-          <p>Ruby/Rails is the best track for you!</p>
+          <p>Thank you for answering our questions <span class="name"></span>, based on your results we have decided Ruby/Rails is the best track for you! If you'd like to know more click the link below!</p>
           <ul>
             <li><a href="https://www.epicodus.com/ruby">Epicodus Ruby Track</a></li>
           </ul>

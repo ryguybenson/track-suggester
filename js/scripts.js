@@ -2,13 +2,14 @@ $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
 
+  var name = $("#name").val();
+  $(".name").text(name);
+
   var question1 = $("#first").val();
   var question2 = $("#second").val();
   var question3 = $("#third").val();
   var question4 = $("#fourth").val();
   var question5 = $("#fifth").val();
-
-
   if ((question1 === "yes" && question2 === "yes") || (question1 === "yes" && question2 === "no" && question3 === "no")) {
     $("#css").fadeIn();
     $("#ruby").hide();
