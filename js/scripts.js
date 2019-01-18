@@ -10,14 +10,13 @@ $(document).ready(function() {
 
   event.preventDefault();
   if (question1 === "yes" && question2 === "yes") {
-    $("#answer1").show();
-  } else if (quesition2 === "yes" && question4 === "yes") {
-    $("#")
-  }
-  if ((question3 === "yes") && (question4 === "yes")) {
-    $("#answer3").show();
+    $("#css").show();
+  } else if (question2 === "yes" && question4 === "yes") {
+    $("#ruby").show();
+  } if ((question3 === "yes") && (question4 === "yes")) {
+    $("#ruby").show();
   } else if (question3 === "yes") {
-    $("#answer2").show();
+    $("#c-sharp").show();
   }
   });
 });
