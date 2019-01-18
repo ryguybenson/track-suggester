@@ -8,8 +8,9 @@ $(document).ready(function() {
   var question5 = $("#fifth").val();
 
 
-
-
   event.preventDefault();
+  if (question1 === "very") {
+    $("#answer1").show();
+  }
   });
 });
