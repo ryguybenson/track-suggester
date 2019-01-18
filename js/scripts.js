@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
+    event.preventDefault();
 
   var question1 = $("#first").val();
   var question2 = $("#second").val();
@@ -8,13 +9,18 @@ $(document).ready(function() {
   var question5 = $("#fifth").val();
 
 
-  event.preventDefault();
   if ((question1 === "yes" && question2 === "yes")) {
     $("#css").show();
+    $("#ruby").hide();
+    $("#c-sharp").hide();
   } else if ((question2 === "yes" && question4 === "yes") || (question3 === "yes") && (question4 === "yes")) {
     $("#ruby").show();
+    $("#css").hide();
+    $("#c-sharp").hide();
   } else {
     $("#c-sharp").show();
+    $("#ruby").hide();
+    $("#css").hide();
   }
   });
 });
