@@ -9,7 +9,7 @@ $(document).ready(function() {
   var question5 = $("#fifth").val();
 
 
-  if ((question1 === "yes" && question2 === "yes")) {
+  if ((question1 === "yes" && question2 === "yes") || (question1 === "yes" && question2 === "no" && question3 === "no")) {
     $("#css").show();
     $("#ruby").hide();
     $("#c-sharp").hide();
