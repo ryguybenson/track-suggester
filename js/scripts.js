@@ -10,15 +10,15 @@ $(document).ready(function() {
 
 
   if ((question1 === "yes" && question2 === "yes") || (question1 === "yes" && question2 === "no" && question3 === "no")) {
-    $("#css").show();
+    $("#css").fadeIn();
     $("#ruby").hide();
     $("#c-sharp").hide();
   } else if ((question2 === "yes" && question4 === "yes") || (question3 === "yes") && (question4 === "yes")) {
-    $("#ruby").show();
+    $("#ruby").fadeIn();
     $("#css").hide();
     $("#c-sharp").hide();
   } else {
-    $("#c-sharp").show();
+    $("#c-sharp").fadeIn();
     $("#ruby").hide();
     $("#css").hide();
   }
