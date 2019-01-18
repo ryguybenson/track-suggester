@@ -9,8 +9,10 @@ $(document).ready(function() {
 
 
   event.preventDefault();
-  if (question1 === "very") {
+  if (question1 === "yes") {
     $("#answer1").show();
   }
+
+
   });
 });
