@@ -1,7 +1,10 @@
 .container {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: .05%;
+  margin-bottom: 1%;
 }
 #css, #c-sharp, #ruby {
   display: none;
+}
+select {
+  margin-bottom: 1%;
 }
